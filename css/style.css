@@ -166,6 +166,9 @@ line-height: 1.18;
 letter-spacing: 0.03em;
 color: var(--text-color);
 }
+.our-team{
+    background-color: var(--button-color);
+}
 /*header*/
 
 /*logo section*/
@@ -348,8 +351,52 @@ button {
 }
 
 .button-request{
-  margin-top: 30px;
+  margin-top: 33px;
   margin-bottom: 200px;
 }
 
 /* description section*/
+
+.description .text{
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+}
+.text h3{
+  display: flex;
+
+}
+.text p{
+  margin-top: 10px ;
+  padding: 0 50px 0 0;
+}
+.text p:not(:last-child){
+  margin-right: 30px;
+}
+
+/* about section */
+
+.about {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  
+}
+
+.pictures{
+  display: flex;
+  margin-top:50px
+}
+
+.pictures .link:not(:last-child){
+  margin-right:30px;
+}
+
+/* about team section */
+
+.team{
+  justify-content: center;
+  flex-direction: column;
+
+}
+
