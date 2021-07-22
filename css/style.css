@@ -100,6 +100,8 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 color: var(--text-color);
 }
+
+
 /*baner section button*/
 .button-request {
   background-color: var(--link-active-color);
@@ -107,6 +109,7 @@ color: var(--text-color);
   color: var(--button-color);
   cursor: pointer;
   border-radius: 4px;
+  padding: 10px 32px 10px 32px;
 
 font-weight: 700;
 font-size: 16px;
@@ -291,24 +294,62 @@ button {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--link-active-color);
+  
 }
 .logo-studio-footer {
   color: var(--white-color);
 }
 
-
-/*header*/
-
-.header{
+/*container*/
+.container{
+  display: flex;
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  display: flex;
-  height: 80px;
-  margin: 0px auto;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
-.site-nav{
+/*header*/
+.logo{
+  margin-top: 24px;
+  margin-bottom: 25px ;
+  
+}
+.header{
   display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px; 
   
 }
 
+.site-nav .text:not(:last-child) {
+  margin-right: 50px;
+}
+.contacts{
+  display: flex;
+  margin-left: 331px;
+ }
+.mail{
+  margin-right: 50px;
+}
+
+/*banner section*/
+
+.hero{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.button-request{
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+/* description section*/
