@@ -393,10 +393,38 @@ button {
 }
 
 /* about team section */
-
+.our-team{
+  margin-top: 94px;
+}
 .team{
-  justify-content: center;
   flex-direction: column;
-
+  justify-content: center;
+}
+.team h2{
+  padding-top: 94px;
+  padding-bottom: 56px;
+}
+.team-card{
+  
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 88px;
 }
 
+.text-card{
+  background-color: var(--white-color);
+  border-radius: 4px;
+}
+.text-card:not(:last-child){
+  margin-right: 30px;
+}
+.team-card h3{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.team-card p{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
