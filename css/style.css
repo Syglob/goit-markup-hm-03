@@ -231,6 +231,7 @@ color: var(--text-color);
 /*button*/
 .filter {
   color: var(--link-color);
+  padding: 6px 22px ;
   
 }
 
@@ -453,4 +454,43 @@ footer{
   margin-bottom: 9px;
 }
 
-/*portfolio*
+/*portfolio page*/
+.line {
+  padding-right:;
+border-top: 1px solid #ECECEC;
+}
+.button{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button li{
+  align-content: center;
+  margin-right: 8px;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+/* portfolio */
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex{
+  margin-right: 30px;
+  
+}
+
+.flex:nth-child(3n){
+  margin-right: 0;
+}
+
+.flex:nth-last-child(-n + 3){
+  margin-bottom: 0;
+}
+
+.flex h3{
+padding: 20px ;
+}
+
