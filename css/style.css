@@ -475,22 +475,28 @@ border-top: 1px solid #ECECEC;
 .portfolio{
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 94px;
 }
 
 .flex{
   margin-right: 30px;
-  
+  outline: 1px solid #EEEEEE;
+  margin-bottom: 30px;
 }
 
 .flex:nth-child(3n){
   margin-right: 0;
 }
-
 .flex:nth-last-child(-n + 3){
   margin-bottom: 0;
 }
 
 .flex h3{
-padding: 20px ;
+  padding-top: 20px;
+  padding-left: 24px;
 }
 
+.flex p {
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
