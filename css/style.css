@@ -134,9 +134,14 @@ letter-spacing: 0.06em;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+
+ text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 94px 0;
 }
 
-.about h2 {
+.team-head {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -195,13 +200,14 @@ color: var(--text-color);
   color: var(--link-active-color);
 }
 .navigation {
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  margin-left: 93px; 
 }
-/*main*/
+/*mail*/
 .mail {
   font-weight: 500;
   font-size: 14px;
@@ -246,7 +252,6 @@ button {
   letter-spacing: 0.03em;
   cursor: pointer;
   border-radius: 4px;
- 
 }
 
 
@@ -280,7 +285,6 @@ button {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--address-color);
- 
 }
 footer{
   background-color: var(--background-color);
@@ -309,8 +313,7 @@ footer{
 
 /*container*/
 .container{
-  display: flex;
-  max-width: 1200px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -318,19 +321,16 @@ footer{
   align-items: center;
 }
 /*header*/
-.logo{
-  margin-top: 24px;
-  margin-bottom: 25px ;
-  
+.header-wrapper{
+  display: flex;
 }
 .header{
-  display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px ;
 }
 .site-nav {
   display: flex;
-  margin-left: 93px; 
-  
 }
 
 .site-nav .text:not(:last-child) {
@@ -339,52 +339,47 @@ footer{
 .contacts{
   display: flex;
   margin-left: 331px;
- }
+}
 .mail{
   margin-right: 50px;
 }
 
 /*banner section*/
-
+.banner{
+  padding: 200px 0;
+}
 .hero{
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   text-align: center;
-  padding-top: 200px;
 }
 
 .button-request{
   margin-top: 33px;
-  margin-bottom: 200px;
 }
 
 /* description section*/
-
+.description{
+  padding-top: 94px;
+}
+.blocks:not(:last-child){
+  margin-right: 30px;
+}
 .description .text{
   display: flex;
   justify-content: center;
-  margin-top: 94px;
 }
-.text h3{
-  display: flex;
 
-}
 .text p{
   margin-top: 10px ;
-  padding: 0 50px 0 0;
 }
-.text p:not(:last-child){
-  margin-right: 30px;
-}
+
 
 /* about section */
 
 .about {
+  text-align: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 100px;
-  
+  padding: 94px 0;
 }
 
 .pictures{
@@ -398,21 +393,22 @@ footer{
 
 /* about team section */
 .our-team{
-  margin-top: 94px;
+  text-align: center;
+  padding: 94px 0;
 }
 .team{
   flex-direction: column;
   justify-content: center;
 }
-.team h2{
-  padding-top: 94px;
-  padding-bottom: 56px;
-}
+
 .team-card{
-  
   display: flex;
   justify-content: space-between;
-  margin-bottom: 88px;
+}
+
+.team-head{
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .text-card{
@@ -456,8 +452,8 @@ footer{
 
 /*portfolio page*/
 .line {
-  padding-right:;
-border-top: 1px solid #ECECEC;
+  padding-right:
+border-top 1px solid #ECECEC;
 }
 .button{
   display: flex;
